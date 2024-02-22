@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    height: 5rem;
+    align-items: center;
+}
+
+.headops a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: rgba(63, 60, 60, 0.842);
+    text-underline-offset: none;
+    display: inline;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+.headops a:hover{
+      border-color: 1px solid black;
+      color: black;     
+}
+
+.headops {
+    width: 65%;
+}
+
+.navlogo {
+    height: 5rem;
+    width: 5rem;
+    padding-right: 15px;
+}
+
+.logo {
+    background-image: url("logo.png");
+    height: 5rem;
+    width: 100%;
+    background-size: cover;
+}
+
+.right{
+    display: flex;
+    border: none;
+}
+
+i{
+    background-color:rgb(64, 230, 49) ;
+    margin-left: 3px;
+    padding: 7px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+h1 {
+    font-family: 'Times New Roman';
+    color: black;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.entry-div {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 10rem;
+    padding: 2rem;
+    background-image: url("pap.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.entry-box {
+    height: 9rem;
+    align-items: center;
+}
+
+#title {
+    height: 9rem;
+    font-size: 18px;
+    margin-top: 0.25rem;
+}
+
+#title-entry {
+    border-style: outset;
+    padding: 5px;
+    margin-top: 0.5rem;
+    font-size: 14px;
+    border-radius: 2px;
+    border-color: #e0e0e0;
+}
+
+#desp-entry {
+    border-style: outset;
+    padding: 9px;
+    margin-top: 0.5rem;
+    font-size: 14px;
+    border-radius: 2px;
+    border-color: #e0e0e0;
+}
+
+#desp {
+    font-size: 18px;
+
+}
+
+#add {
+    padding: 5px;
+    margin-top: 0.5rem;
+    font-size: 14px;
+    border-radius: 2px;
+    border: 5px solid rgb(64, 230, 49);
+    width: 12rem;
+    background-color: #fff;
+    color: rgb(64, 230, 49);
+    transition: all 0.3s;
+}
+
+.list {
+    background-color: #e0e0e0;
+}
+
+#head {
+    display: flex;
+    justify-content: center;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+.task > div{
+    width: 100%;
+    background-color: white;
+}
+
+p{
+    justify-content: center;
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    align-items: center;
+}
+span{
+    justify-content: center;
+    font-size: 14px;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.deleteBtn{
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 5px solid rgb(234, 15, 15) ;
+    background-color: #fff;
+    color: rgb(234, 15, 15);
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.deleteBtn:hover{
+    background-color: rgb(234, 15, 15);
+    color: #fff;
+    cursor: pointer;
+}
+
+#add:hover{
+    background-color: rgb(64, 230, 49);
+    color: #fff;
+    cursor: pointer;
+}
+
+/* 
+    table format of representing todos
+
+    <table class="table">
+        <thead></thead>
+        <tr>
+            <th>S. No</th>
+            <th>Items</th>
+            <th>Description</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="tablebody">
+        <tr>
+            <td>NA</td>
+            <td>NA</td>
+            <td>NA</td>
+            <td><button class="btn">Delete</button></td>
+        </tr>
+    </tbody>
+    </table>
+</div> */
+
